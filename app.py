@@ -1,4 +1,5 @@
-from flask import Flask#hello world
+from flask import Flask
+#hello world
 app=Flask('_MANI_')
 @app.route('/')
 def hello_world():
